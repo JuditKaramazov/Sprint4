@@ -12,7 +12,8 @@ You will be in charge of setting up the core of the application: all the logic o
 
 In order to customize the assignment, I decided to add a minimal Bootstrap landing page just so I could both explore new designs and express my gratitude to:
 - Auregan Nedelec
-- Freepik project 
+- Freepik project
+
 for their visual contributions. Thanks a lot!
 
 <br>
