@@ -14,6 +14,9 @@ In order to customize the assignment, I decided to add a minimal Bootstrap landi
 - Auregan Nedelec
 - Freepik project 
 for their visual contributions. Thanks a lot!
+
+<br>
+
 ![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTNiOWY0MzZkYTU0ZWU2NmYyMTdhMjljNDQ3NGE3MWYxYTRmZmRiOSZjdD1n/hQxweplcplLvrxEMOv/giphy.gif)
 
 <br>
