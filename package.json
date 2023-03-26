@@ -36,6 +36,7 @@
     "trailingComma": "none"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "browserify": "^17.0.0"
   }
 }

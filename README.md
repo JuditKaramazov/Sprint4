@@ -8,6 +8,16 @@ You will be in charge of setting up the core of the application: all the logic o
 
 <br>
 
+## Landing page
+
+In order to customize the assignment, I decided to add a minimal Bootstrap landing page just so I could both explore new designs and express my gratitude to:
+- Auregan Nedelec
+- Freepik project 
+for their visual contributions. Thanks a lot!
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTNiOWY0MzZkYTU0ZWU2NmYyMTdhMjljNDQ3NGE3MWYxYTRmZmRiOSZjdD1n/hQxweplcplLvrxEMOv/giphy.gif)
+
+<br>
+
 ## Requirements
 
 
@@ -23,7 +33,7 @@ $ git remote rm origin
 
 3. Link your repo to the repository you have to create in your github account
 ```bash
-$ git remote add <your repo name!>
+$ git remote add origin <your repo name!>
 ```
 
 <br>
@@ -79,8 +89,6 @@ an array of information about 250 movies.
 
 - The logic to implement will be placed in the src/films.js file.
 
-- You don't need to show the result of each function on the screen. Your goal is to pass the tests.  More information on how to program oriented to pass tests at the end of the document.
+- You don't need to show the result of each function on the screen. Your goal is to pass the tests. More information on how to program oriented to pass tests at the end of the document.
 
 - Don't forget to include the capture of the test results in the virtual campus.
-
-

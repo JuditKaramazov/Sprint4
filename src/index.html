@@ -1,10 +1,213 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="icon" href="./images/favicon.png" type="icon">
+        <link href="./css/main.min.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/f957ab6a8a.js" crossorigin="anonymous"></script>
+        <title>Video Management Tool</title>
+    </head>
 
-<body>
+    <body>
+        <!-- Introduction cards -->
+        <section>
+            <div class="container">
+                <div class="card mt-5 align-items-center justify-content-center">
+                    <div class="content">
+                        <a class="video-manager" href="#heading-section"><img src="./images/manager.png"></a>
+                        <div class="card-content">
+                            <h3>IT Academy<br><span>Video Management Tool</span></h3>
+                        </div>
+                    </div>
+                    <ul class="social">
+                        <li class="nav-item">
+                        <a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
 
-    <h1>Sprint 4 IT ACADEMY</h1>
-    
-</body>
+                <div class="card mt-5 align-items-center justify-content-center">
+                    <div class="content">
+                        <a class="about-me" href="#final-section"><img src="./images/about.png"></a>
+                        <div class="card-content">
+                            <h3>Judit Lázaro<br><span>A terrible developer</span></h3>
+                        </div>
+                    </div>
+                    <ul class="social">
+                        <li class="nav-item">
+                        <a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Heading section: tool usage -->
+        <main>
+            <div id="heading-section">
+                <div class="divider"><img src="./images/divider.png" class="img-fluid"></div>
+                    <div class="heading-container">
+                        <div class="col-md-12 text-center">
+                            <h3 class="heading-nav mb-5">A simple video management tool<br><span>deserves a humble introduction</span></h3>
+                        </div>
+                    </div>
+            </div>
+            <!-- Navigation tabs -->
+            <nav>
+                <div class="nav nav-tabs row col-10 col-lg-8 col-xl-6 mx-auto justify-content-center" id="nav-tab" role="tablist">
+                    <button class="tab-link nav-link col active" id="nav-tool-tab" data-bs-toggle="tab" data-bs-target="#nav-tool" type="button" role="tab" aria-controls="nav-tool" aria-selected="true">
+                        About the tool
+                    </button>
+                    <button class="tab-link nav-link col" id="nav-testing-tab" data-bs-toggle="tab" data-bs-target="#nav-testing" type="button" role="tab" aria-controls="nav-testing" aria-selected="false">
+                        About testing
+                    </button>
+                </div>
+            </nav>
+            <!-- Navigation content -->
+            <div class="tab-content" id="nav-toolContent">
+                <div class="tab-pane fade show active" id="nav-tool" role="tabpanel" aria-labelledby="nav-tool-tab">
+                    <div class="right-container my-5 row row-cols-1 row-cols-md-2 flex-row-reverse align-items-center">
+                        <div class="col" style="max-width: 800px;">
+                            <img class="container-fluid img-fluid position-relative w-100" src="/src/images/shell-example.PNG" alt="Tool usage preview">
+                        </div>
+                        <div class="description-container col text-center text-md-start mt-md-0 px-4">
+                            <h3>How does it work?</h3>
+                            <p class="h5 text-center">IT Academy - React</p>
+                            <p class="h5 text-center">Instructions</p>
+                            <div class="col-xl-6" style="margin: auto; margin-top: 50px; text-align: justify;">
+                                <p>First of all, we'll introduce what follows in the shell:<br>
+                                    <span>  ``$ npm install``<br>
+                                            ``$ npm run test:watch``<br>
+                                    </span>
+                                    After it, we'll proceed to open the generated <span>'test-results.html' </span>
+                                    file with the "Live Server" VSCode extension to see the results.
+                                </p>
+                                <a class="btn btn-outline-dark mb-2 py-2 px-4" href="#">Main Page</a>
+                                <a class="btn btn-dark mb-2 py-2 px-4" href="#nav-aboutContent">Buy me a coffee</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-testing" role="tabpanel" aria-labelledby="nav-testing-tab">
+                    <div class="right-container my-5 row row-cols-1 row-cols-md-2 align-items-center">
+                        <div class="col" style="max-width: 800px;">
+                            <img class="container-fluid img-fluid position-relative w-100" src="/src/images/testing-example.PNG" alt="Testing process preview">
+                        </div>
+                        <div class="description-container col text-center text-md-start mt-md-0 px-4">
+                            <h3>What about testing?</h3>
+                            <p class="h5 text-center">IT Academy - React</p>
+                            <p class="h5 text-center">Testing importance</p>
+                            <div class="col-xl-6" style="margin: auto; margin-top: 50px; text-align: justify;">
+                                <p>A (fictional) company in the audiovisual sector has asked us for a web application
+                                    that will allow their employees to quickly find movies from a large database
+                                    since the process is currently done manually. All tests are already defined in
+                                    <span> 'test-results.html', </span>just like you can see in the picture!
+                                </p>
+                                <a class="btn btn-outline-dark mb-2 py-2 px-4" href="#">Main Page</a>
+                                <a class="btn btn-dark mb-2 py-2 px-4" href="#nav-aboutContent">I truly need coffee...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <!-- Final section: about and appreciation -->
+            <div id="final-section">
+                <div class="divider"><img src="./images/divider.png" class="img-fluid" style="margin-top: 15px"></div>
+                    <div class="final-container">
+                        <div class="col-md-12 text-center">
+                            <h3 class="final-nav mb-5">Don't forget that developers<br><span>need some cofee to keep on keeping on</span></h3>
+                        </div>
+                    </div>
+            </div>
+            <!-- Navigation tabs -->
+            <nav>
+                <div class="nav nav-tabs row col-10 col-lg-8 col-xl-6 mx-auto justify-content-center" id="nav-tab" role="tablist">
+                    <button class="tab-link nav-link col active" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="true">
+                        About me
+                    </button>
+                    <button class="tab-link nav-link col" id="nav-thanks-tab" data-bs-toggle="tab" data-bs-target="#nav-thanks" type="button" role="tab" aria-controls="nav-thanks" aria-selected="false">
+                        Big thanks
+                    </button>
+                </div>
+            </nav>
+            <!-- Navigation content -->
+            <div class="tab-content" id="nav-aboutContent">
+                <div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                    <div class="right-container my-5 row row-cols-1 row-cols-md-2 flex-row-reverse align-items-center">
+                        <div class="col" style="max-width: 800px;">
+                            <img class="container-fluid img-fluid position-relative w-100" src="/src/images/about-me.PNG" alt="About me">
+                        </div>
+                        <div class="description-container col text-center text-md-start mt-md-0 px-4">
+                            <h3>About me</h3>
+                            <p class="h5 text-center">Judit Lázaro</p>
+                            <p class="h5 text-center">A catastrophe with legs</p>
+                            <div class="col-xl-6" style="margin: auto; margin-top: 50px; text-align: justify;">
+                                <p>Sadly, there's not much to say about me: if anything, I would describe myself as
+                                    a <span>very tired</span> philologist on my way to becoming a digital animal.
+                                    Give me <span>coffee, cigarettes, and some Soulsborne games,</span> and I'll be
+                                    the happiest woman on Earth.<br>
+                                    Let's not underestimate IT Academy's mastery of the Force, though!
+                                </p>
+                                <a class="btn btn-outline-dark mb-2 py-2 px-4" href="#">Main Page</a>
+                                <a class="btn btn-dark mb-2 py-2 px-4" href="#nav-aboutContent">Coffee time?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-thanks" role="tabpanel" aria-labelledby="nav-thanks-tab">
+                    <div class="right-container my-5 row row-cols-1 row-cols-md-2 align-items-center">
+                        <div class="col" style="max-width: 800px;">
+                            <img class="container-fluid img-fluid position-relative w-100" src="/src/images/big-thanks.PNG" alt="Visual design appreciation">
+                        </div>
+                        <div class="description-container col text-center text-md-start mt-md-0 px-4">
+                            <h3>Dinosaurs</h3>
+                            <p class="h5 text-center">and tropical vibes</p>
+                            <p class="h5 text-center">Thanks for the design</p>
+                            <div class="col-xl-6" style="margin: auto; margin-top: 50px; text-align: justify;">
+                                <p>I wouldn't want to finish this template without entonating a clear and loud
+                                    <span>¡ gracias !</span> to the design artists I stole their art from. Both
+                                    <span>``Madame`` Auregan Nedelec</span> and everyone taking part on the 
+                                    <span>Freepik project</span>...
+                                    <br>much obliged.
+                                </p>
+                                <a class="btn btn-outline-dark mb-2 py-2 px-4" href="#">Main Page</a>
+                                <a class="btn btn-dark mb-2 py-2 px-4" href="#nav-aboutContent">Coffee party!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <img src="/src/images/footer-bg.jpg" class="img-fluid" alt="Footer tall grass">
+            </div>
+        </footer>
+        
+        <!-- Scripts -->
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
 
 </html>
