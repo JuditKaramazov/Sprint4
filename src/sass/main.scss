@@ -27,7 +27,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url("/src/images/general-bg.jpg");
+    background-image: url("../images/general-bg.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     animation: fadeIn 2s ease-in-out;
@@ -40,7 +40,7 @@ section {
     align-items: center;
     justify-content: center;
     background-color: rgb(229, 243, 229);
-    background-image: url("/src/images/background.png");
+    background-image: url("../images/background.png");
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -176,7 +176,7 @@ main {
 
 .description-container {
     border: 30px solid black;
-    border-image: url("/src/images/divider.png") 100;
+    border-image: url("../images/divider.png") 100;
     animation: fadeIn 1.7s ease-in-out;
 }
 
